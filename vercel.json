@@ -6,7 +6,7 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "public",
-        "buildCommand": "npx hexo clean && npx hexo generate"
+        "buildCommand": "npm run vercel-build"
       }
     }
   ]
