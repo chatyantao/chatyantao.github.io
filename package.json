@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "vercel-build": "npm install -g hexo-cli && hexo clean && hexo generate",
+    "vercel-build": "node ./node_modules/hexo/bin/hexo clean && node ./node_modules/hexo/bin/hexo generate",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",

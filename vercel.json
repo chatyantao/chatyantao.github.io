@@ -6,8 +6,7 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "public",
-        "buildCommand": "npm install && npm run vercel-build",
-        "installCommand": "npm install"
+        "buildCommand": "npm install && npm run vercel-build"
       }
     }
   ]
